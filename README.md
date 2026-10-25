@@ -4,7 +4,7 @@
 A3 renkli bastırılır, kesilir, katlanır, yapıştırılır. Mutfak, oturma odası, banyo, yatak odası ve
 bahçe hazır; oda adları İngilizce yazılı.
 
-**Site:** https://theilgaz.github.io/parts-of-the-house
+**Site:** https://ev.ilg.az
 
 A free, one-sheet fold-up paper house for the "Parts of the House" English lesson. Print on A3,
 cut, fold, glue. The site and the printables are available in Turkish and English.
@@ -59,6 +59,8 @@ python3 -m http.server -d docs 8000
 ## GitHub Pages
 
 Settings → Pages → Source: *Deploy from a branch*, Branch: `main`, klasör: `/docs`.
+Özel alan adı `docs/CNAME` dosyasında (`ev.ilg.az`). DNS'te `ev` → `theilgaz.github.io` CNAME kaydı
+gerekir (Cloudflare'de proxy kapalı, yalnızca DNS).
 
 ## Katkı
 

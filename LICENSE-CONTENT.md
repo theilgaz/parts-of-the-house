@@ -7,7 +7,7 @@ ile `tools/sheet.py` tarafından üretilen şablon çizimleri
 Kopyalayabilir, bastırabilir, dağıtabilir, değiştirebilir ve ticari amaçla da
 kullanabilirsiniz; tek koşul kaynağı belirtmektir:
 
-> Kolay Ev, theilgaz, https://theilgaz.github.io/parts-of-the-house (CC BY 4.0)
+> Kolay Ev, theilgaz, https://ev.ilg.az (CC BY 4.0)
 
 The PDFs, images and template drawings are licensed under CC BY 4.0.
 You may share and adapt them for any purpose, as long as you give credit as above.

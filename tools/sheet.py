@@ -107,6 +107,6 @@ def sheet_svg(lang="tr"):
     y[0] += 2
     for s in C["foot"]:
         t(s, 9.5, color="#666")
-    o.append(f'<text x="192" y="288" font-size="3" font-family="{FONT}" fill="#999" text-anchor="end">theilgaz.github.io/parts-of-the-house  ·  CC BY 4.0</text>')
+    o.append(f'<text x="192" y="288" font-size="3" font-family="{FONT}" fill="#999" text-anchor="end">ev.ilg.az  ·  CC BY 4.0</text>')
     return ('<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">'
             '<rect width="210" height="297" fill="#fff"/>' + "".join(o) + "</svg>")

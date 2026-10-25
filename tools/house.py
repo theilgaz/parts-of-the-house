@@ -15,7 +15,7 @@ STRINGS = {
         "under": "altına yapıştır",
         "midtab": "KULAKÇIK: arka duvara",
         "midname": "ÜST KAT ZEMİNİ  (sol: bedroom, sağ: bathroom)",
-        "credit": "theilgaz.github.io/parts-of-the-house  ·  CC BY 4.0",
+        "credit": "ev.ilg.az  ·  CC BY 4.0",
     },
     "en": {
         "legend": "Solid line = CUT   ·   Dashed line = FOLD   ·   Grey area = GLUE",
@@ -24,7 +24,7 @@ STRINGS = {
         "under": "glue underneath",
         "midtab": "TAB: glue to back wall",
         "midname": "UPSTAIRS FLOOR  (left: bedroom, right: bathroom)",
-        "credit": "theilgaz.github.io/parts-of-the-house  ·  CC BY 4.0",
+        "credit": "ev.ilg.az  ·  CC BY 4.0",
     },
 }
 
