@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kolay Ev · Parts of the House</title>
+<meta name="description" content="Parts of the House ödevi için ücretsiz, tek sayfalık katlanır kağıt ev. A3 bastır, kes, katla, yapıştır. Free fold-up paper dollhouse for the Parts of the House lesson.">
+<meta property="og:title" content="Kolay Ev · Parts of the House">
+<meta property="og:description" content="Tek A3 sayfalık, ücretsiz katlanır kağıt ev. Mutfak, oturma odası, banyo, yatak odası ve bahçe.">
+<meta property="og:image" content="https://theilgaz.github.io/parts-of-the-house/assets/preview-tr.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11 12 3l9 8v10H3z" fill="var(--roof)"/><rect x="6" y="12" width="12" height="9" fill="var(--paper)"/><rect x="10" y="15" width="4" height="6" fill="var(--roof)"/></svg>
+      <span>Kolay Ev</span>
+    </a>
+    <nav class="nav" aria-label="Sayfa">
+      <a href="#indir" data-i18n="nav.download">İndir</a>
+      <a href="#yapim" data-i18n="nav.steps">Yapım</a>
+      <a href="#video" data-i18n="nav.video">Video metni</a>
+      <a href="https://github.com/theilgaz/parts-of-the-house">GitHub</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Dil / Language">
+      <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Ücretsiz · Açık kaynak · Parts of the House</p>
+      <h1 data-i18n="hero.title">Parts of the House ödevi için katlanır kağıt ev</h1>
+      <p class="lead" data-i18n="hero.lead">Tek A3 sayfa. Kitapçıda renkli bastırın, kesin, katlayın, yapıştırın. Mutfak, oturma odası, banyo, yatak odası ve bahçe hazır; oda adları İngilizce yazılı, video çekmeye hazır.</p>
+      <div class="cta" id="indir">
+        <a class="btn primary" data-dl="a3" href="downloads/kolay-ev-A3-tr.pdf" data-i18n="cta.a3">A3 şablonu indir (PDF)</a>
+        <a class="btn" data-dl="a4" href="downloads/kolay-ev-A4-tr.pdf" data-i18n="cta.a4">A4 şablon</a>
+        <a class="btn" data-dl="guide" href="downloads/talimat-tr.pdf" data-i18n="cta.guide">Talimat sayfası</a>
+      </div>
+      <dl class="facts">
+        <div><dt data-i18n="facts.time">Süre</dt><dd data-i18n="facts.timev">~40 dk</dd></div>
+        <div><dt data-i18n="facts.size">Boyut</dt><dd>17 × 20 × 9 cm</dd></div>
+        <div><dt data-i18n="facts.paper">Kağıt</dt><dd data-i18n="facts.paperv">A3 mat kuşe 250-300 gr</dd></div>
+      </dl>
+    </div>
+
+    <figure class="viewer">
+      <div class="stage" id="stage">
+        <span class="hint" data-i18n="viewer.hint">Sürükle: çevir · Tekerlek: yakınlaştır</span>
+        <noscript><img src="assets/preview-tr.png" alt="Şablon önizlemesi"></noscript>
+      </div>
+      <div class="controls">
+        <button type="button" class="btn small primary" id="play" data-i18n="viewer.play">Baştan katla</button>
+        <button type="button" class="btn small" id="flat" data-i18n="viewer.flat">Düz kağıt</button>
+        <input type="range" id="fold" min="0" max="1000" value="1000" aria-label="Katlama">
+        <span class="stagename" id="stagename">Bitmiş ev</span>
+      </div>
+    </figure>
+  </section>
+
+  <section class="band">
+    <div class="wrap split">
+      <div>
+        <h2 data-i18n="sheet.title">Şablonda neler var</h2>
+        <p data-i18n="sheet.lead">Her şey tek sayfada ve hazır renkli. Boyamak isteğe bağlı.</p>
+        <ul class="rooms">
+          <li><b>Kitchen</b><span data-i18n="rooms.kitchen">dolaplar, ocak, buzdolabı, masa</span></li>
+          <li><b>Living room</b><span data-i18n="rooms.living">televizyon, kanepe, halı, lamba</span></li>
+          <li><b>Bathroom</b><span data-i18n="rooms.bath">duş, lavabo, ayna, küvet</span></li>
+          <li><b>Bedroom</b><span data-i18n="rooms.bed">yatak, pencere, kitaplık</span></li>
+          <li><b>Garden</b><span data-i18n="rooms.garden">çimen, yol, ağaç, çiçekler</span></li>
+        </ul>
+        <p class="muted" data-i18n="sheet.note">8 parça: ev (tek parça), üst kat zemini ve 6 ayakta duran eşya.</p>
+      </div>
+      <a class="sheet" id="sheetlink" href="assets/preview-tr.png">
+        <img id="sheetimg" src="assets/preview-tr.png" alt="A3 şablonun tamamı" width="1122" height="1587" loading="lazy">
+      </a>
+    </div>
+  </section>
+
+  <section class="wrap section" id="yapim">
+    <h2 data-i18n="steps.title">Yapım</h2>
+    <p class="muted" data-i18n="steps.lead">Kesme işi bir yetişkinde, katlama ve yerleştirme çocukta.</p>
+    <ol class="steps">
+      <li><h3 data-i18n="s1.h">Bastır</h3><p data-i18n="s1.p">A3, renkli, mat kuşe 250-300 gr. Ölçek %100 (gerçek boyut). A3 yoksa A4 dosyasını basın.</p></li>
+      <li><h3 data-i18n="s2.h">Kes</h3><p data-i18n="s2.p">Düz çizgilerden kesin. Ev tek parça; yanında üst kat zemini ve 6 eşya çıkar.</p></li>
+      <li><h3 data-i18n="s3.h">Çiz ve katla</h3><p data-i18n="s3.p">Kesik çizgilerin üstünden cetvelle, bitmiş tükenmezle geçin. Resimli yüz içeride kalacak şekilde katlayın.</p></li>
+      <li><h3 data-i18n="s4.h">Ayağa kaldır</h3><p data-i18n="s4.p">Yan duvarların altındaki gri kulakçıkları içeri kıvırıp zeminin altına yapıştırın.</p></li>
+      <li><h3 data-i18n="s5.h">Üst kat</h3><p data-i18n="s5.p">Üst kat zemininin 3 kulakçığını yukarı kıvırın, duvardaki beyaz şeritlere yapıştırın.</p></li>
+      <li><h3 data-i18n="s6.h">Eşyalar</h3><p data-i18n="s6.p">Alt kulakçıkları arkaya kıvırıp zemine yapıştırın. Yatak ve küvet üst kata, masa ve kanepe alt kata, ağaç ve çiçek bahçeye.</p></li>
+    </ol>
+  </section>
+
+  <section class="band" id="video">
+    <div class="wrap section">
+      <h2 data-i18n="video.title">Video metni</h2>
+      <p class="muted" data-i18n="video.lead">Yavaş okununca yaklaşık 45 saniye. Odayı parmağıyla gösterip cümleyi söylesin.</p>
+      <div class="tablewrap">
+        <table class="script">
+          <thead><tr><th data-i18n="video.say">Söylenecek</th><th class="pron" data-i18n="video.pron">Okunuşu</th></tr></thead>
+          <tbody>
+            <tr><td>Hello! My name is ___.</td><td class="pron">Helıv! May neym iz ___.</td></tr>
+            <tr><td>This is my house.</td><td class="pron">Dhis iz may haus.</td></tr>
+            <tr><td>This is the kitchen. In the kitchen, we eat.</td><td class="pron">Dhis iz dhı kiçın. İn dhı kiçın, vi iit.</td></tr>
+            <tr><td>This is the living room. In the living room, we watch TV.</td><td class="pron">Dhis iz dhı living ruum. İn dhı living ruum, vi voç tii-vii.</td></tr>
+            <tr><td>This is the bathroom. In the bathroom, I take a shower.</td><td class="pron">Dhis iz dhı baathruum. İn dhı baathruum, ay teyk ı şavır.</td></tr>
+            <tr><td>This is the bedroom. In the bedroom, I sleep.</td><td class="pron">Dhis iz dhı bedruum. İn dhı bedruum, ay sliip.</td></tr>
+            <tr><td>This is the garden. In the garden, I play.</td><td class="pron">Dhis iz dhı gaardın. İn dhı gaardın, ay pley.</td></tr>
+            <tr><td>I love my house! Thank you!</td><td class="pron">Ay lav may haus! Tenk yu!</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted pron" data-i18n="video.dh">“dh”: dilin ucu dişlerin arasındayken söylenen d.</p>
+      <ul class="tips">
+        <li data-i18n="tips.1">Gün ışığında, pencerenin karşısında çekin.</li>
+        <li data-i18n="tips.2">Telefon yatay ve sabit dursun; kitap yığınına yaslamak yeter.</li>
+        <li data-i18n="tips.3">Televizyonu kapatın, telefonu çocuğa 1 metreden yakın tutun.</li>
+        <li data-i18n="tips.4">Cümleleri büyük yazıp kameranın arkasına yapıştırın; ezber gerekmez.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p data-i18n="foot.license">Açık kaynak. Kod MIT, şablon ve görseller CC BY 4.0 lisanslı: kopyalayın, bastırın, dağıtın, değiştirin; yalnızca kaynağı belirtin.</p>
+  <p><a href="https://github.com/theilgaz/parts-of-the-house" data-i18n="foot.repo">Kaynak kodu ve katkı: GitHub</a></p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
